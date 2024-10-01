@@ -8,13 +8,14 @@
 
 /* COMMON*/
 
+
 /* layout*/
 
 body {
     background-color:gainsboro ;
 }
 
-.container {
+.header .container {
     
     margin:0 auto;
     border: none ;
@@ -24,24 +25,98 @@ body {
 
 /* HEADER*/
 .header {
+    
     color: black;
+    
 } /*colore testo nero */
 
 .header img {
     height: 80px;
     vertical-align: middle;
-  }
+    padding: 10px 0;
+}
 
   .header .logo-text {
-    
     vertical-align: middle;
     Font-size: 45px;
     Font-weight: bold; 
     Font-family:sans-serif
 
-
   }
 
+/* MAIN */
 
-/* FOOTER */
+  .container-main {
+    
+  width: 80%;
+  max-width: 1100px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 20px;
+  }
+    
+  
+  
+  .button {
+   
+    font-size: 13px;
+    color: white;
+    border:none;
+    margin-top: 20px 20px;
+    display: inline-block;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 7px;
+    background-color: rgb(73, 173, 236);
+}
+  
+.add-section-button {
+    background-color: white;
+    border: 1px solid grey;
+    color:gray
+}
+
+.divider { 
+    margin:20px -17px;
+    height: 2px;
+}
+
+/* MAIN LIST*/
+
+.new-task {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.content{
+    font-family: sans-serif;
+}
+
+.color-text {
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius:45%;
+    background-color: #57b6ed;
+    color: white;
+    }
+
+.check {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    border-radius:50%;
+    background-color:transparent;
+    border: 2px solid #4ec7a7;
+    font-size: 15px;
+    padding: 2px;
+    color: rgb(91, 107, 96)
+}
+
+
 

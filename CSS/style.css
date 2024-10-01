@@ -1,0 +1,47 @@
+
+/* RESET */
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+/* COMMON*/
+
+/* layout*/
+
+body {
+    background-color:gainsboro ;
+}
+
+.container {
+    
+    margin:0 auto;
+    border: none ;
+    background-color: white;
+
+}
+
+/* HEADER*/
+.header {
+    color: black;
+} /*colore testo nero */
+
+.header img {
+    height: 80px;
+    vertical-align: middle;
+  }
+
+  .header .logo-text {
+    
+    vertical-align: middle;
+    Font-size: 45px;
+    Font-weight: bold; 
+    Font-family:sans-serif
+
+
+  }
+
+
+/* FOOTER */
+
